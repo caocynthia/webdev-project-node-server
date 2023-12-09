@@ -1,5 +1,6 @@
 import * as dao from "./dao.js";
 import axios from "axios";
+
 function UserRoutes(app) {
   const request = axios.create({
     withCredentials: true,
@@ -41,14 +42,16 @@ function UserRoutes(app) {
     req.session["currentUser"] = currentUser;
     res.json(currentUser);
   };
+
   const signout = (req, res) => {
-    currentUser = null;
     req.session.destroy();
     res.json(200);
   };
+
   const account = async (req, res) => {
     res.json(req.session["currentUser"]);
   };
+
   const findUserById = async (req, res) => {
     const user = await dao.findUserById(req.params.userId);
     res.json(user);
