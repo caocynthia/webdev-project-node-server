@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import UserRoutes from "./users/routes.js";
 import session from "express-session";
 import cors from "cors";
-
+import ReviewsRoutes from "./reviews/routes.js";
 mongoose.connect("mongodb://127.0.0.1:27017/MyMovieList");
 
 const app = express();
@@ -26,6 +26,8 @@ if (process.env.NODE_ENV !== "development") {
 app.use(session(sessionOptions));
 
 app.use(express.json());
+
+ReviewsRoutes(app);
 
 UserRoutes(app);
 
