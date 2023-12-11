@@ -7,7 +7,7 @@ import ReviewsRoutes from "./reviews/routes.js";
 mongoose.connect("mongodb://127.0.0.1:27017/MyMovieList");
 
 const app = express();
-app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
+app.use(cors({ credentials: true, origin: process.env.FRONTEND_URL }));
 
 const sessionOptions = {
   secret: "any string",
