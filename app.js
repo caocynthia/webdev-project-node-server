@@ -8,7 +8,8 @@ import "dotenv/config";
 
 const app = express();
 
-app.use(cors({ credentials: true, origin: process.env.FRONTEND_URL }));
+// app.use(cors({ credentials: true, origin: process.env.FRONTEND_URL }));
+app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
 
 const CONNECTION_STRING =
   process.env.DB_CONNECTION_STRING || "mongodb://127.0.0.1:27017/MyMovieList";
@@ -40,4 +41,4 @@ app.get("/", (req, res) => {
   res.send("200");
 });
 
-app.listen(4000);
+app.listen(process.env.PORT || 4000);

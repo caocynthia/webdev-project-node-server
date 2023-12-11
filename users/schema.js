@@ -12,7 +12,7 @@ const userSchema = new mongoose.Schema(
       enum: ["MODERATOR", "USER"],
       default: "USER",
     },
-    likedMovies: [String],
+    likedMovies: [],
   },
   { collection: "users" }
 );
