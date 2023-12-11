@@ -54,6 +54,49 @@ function UserRoutes(app) {
     res.json(user);
   };
 
+// Like a movie
+const likeMovie = async (req, res) => {
+  const userId = req.params.userId;
+  const movieId = req.params.movieId;
+
+  // Get the current user
+  const currentUser = await dao.findUserById(userId);
+
+  // Update likedMovies array
+  currentUser.likedMovies.push(movieId);
+
+  // Update the user in the database
+  const updatedUser = await updateUser(userId, currentUser);
+
+  // Update the session with the new user data
+  req.session["currentUser"] = updatedUser;
+
+  res.json(updatedUser);
+};
+
+// Unlike a movie
+const unlikeMovie = async (req, res) => {
+  const userId = req.params.userId;
+  const movieId = req.params.movieId;
+
+  // Get the current user
+  const currentUser = await dao.findUserById(userId);
+
+  // Remove the movieId from likedMovies array
+  currentUser.likedMovies = currentUser.likedMovies.filter(id => id !== movieId);
+
+  // Update the user in the database
+  const updatedUser = await updateUser(userId, currentUser);
+
+  // Update the session with the new user data
+  req.session["currentUser"] = updatedUser;
+
+  res.json(updatedUser);
+};
+
+  
+  app.post('/api/users/:userId/likeMovie/:movieId', likeMovie);
+  app.delete('/api/users/:userId/unlikeMovie/:movieId', unlikeMovie);  
   app.post("/api/users", createUser);
   app.get("/api/users", findAllUsers);
   app.get("/api/users/:userId", findUserById);
