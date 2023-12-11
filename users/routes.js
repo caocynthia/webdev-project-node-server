@@ -1,11 +1,6 @@
 import * as dao from "./dao.js";
-import axios from "axios";
 
 function UserRoutes(app) {
-  const request = axios.create({
-    withCredentials: true,
-  });
-
   const createUser = async (req, res) => {
     const user = await dao.createUser(req.body);
     res.json(user);
@@ -27,6 +22,7 @@ function UserRoutes(app) {
     req.session["currentUser"] = currentUser;
     res.json(status);
   };
+
   const signup = async (req, res) => {
     const user = await dao.findUserByUsername(req.body.username);
     if (user) {

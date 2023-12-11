@@ -9,7 +9,7 @@
     "email": "ada@lovelace.com",
     "dob": "1815-12-10",
     "role": "MODERATOR",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "278"]
   },
   {
     "_id": {
@@ -22,7 +22,7 @@
     "email": "gandalf@middleearth.com",
     "dob": "unknown",
     "role": "MODERATOR",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "240"]
   },
   {
     "_id": {
@@ -35,7 +35,7 @@
     "email": "arwen@rivendell.com",
     "dob": "241-03-01",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "240"]
   },
   {
     "_id": {
@@ -48,7 +48,7 @@
     "email": "galadriel@lothlorien.com",
     "dob": "Years of the Trees",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "278"]
   },
   {
     "_id": {
@@ -61,7 +61,7 @@
     "email": "tony@stark.com",
     "dob": "1970-05-29",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "278"]
   },
   {
     "_id": {
@@ -74,7 +74,7 @@
     "email": "bruce@wayne.com",
     "dob": "1972-02-19",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "278"]
   },
   {
     "_id": {
@@ -87,7 +87,7 @@
     "email": "steve@avengers.com",
     "dob": "1918-07-04",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "278"]
   },
   {
     "_id": {
@@ -100,7 +100,7 @@
     "email": "natasha@avengers.com",
     "dob": "1984-11-22",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "278"]
   },
   {
     "_id": {
@@ -113,7 +113,7 @@
     "email": "thor@asgard.com",
     "dob": "982-05-25",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "278"]
   },
   {
     "_id": {
@@ -126,7 +126,7 @@
     "email": "bruce@avengers.com",
     "dob": "1969-12-18",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "278"]
   },
   {
     "_id": {
@@ -139,7 +139,7 @@
     "email": "frodo@shire.com",
     "dob": "1368-09-22",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "278"]
   },
   {
     "_id": {
@@ -152,7 +152,7 @@
     "email": "aragorn@gondor.com",
     "dob": "2931-03-01",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "278"]
   },
   {
     "_id": {
@@ -165,7 +165,7 @@
     "email": "legolas@mirkwood.com",
     "dob": "2879-07-15",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "278"]
   },
   {
     "_id": {
@@ -178,7 +178,7 @@
     "email": "arjuna@hastinapura.com",
     "dob": "unknown",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "278"]
   },
   {
     "_id": {
@@ -191,7 +191,7 @@
     "email": "sita@mithila.com",
     "dob": "unknown",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "240"]
   },
   {
     "_id": {
@@ -204,7 +204,7 @@
     "email": "bhima@hastinapura.com",
     "dob": "unknown",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "240"]
   },
   {
     "_id": {
@@ -217,7 +217,7 @@
     "email": "draupadi@panchala.com",
     "dob": "unknown",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "240"]
   },
   {
     "_id": {
@@ -230,7 +230,7 @@
     "email": "krishna@dwaraka.com",
     "dob": "unknown",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "240"]
   },
   {
     "_id": {
@@ -243,7 +243,7 @@
     "email": "wukong@mountHuaguo.com",
     "dob": "unknown",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "240"]
   },
   {
     "_id": {
@@ -256,7 +256,7 @@
     "email": "change@moonpalace.com",
     "dob": "unknown",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "240"]
   },
   {
     "_id": {
@@ -269,7 +269,7 @@
     "email": "nezha@chalai.com",
     "dob": "unknown",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "240"]
   },
   {
     "_id": {
@@ -282,7 +282,7 @@
     "email": "guanyu@shu.com",
     "dob": "unknown",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238", "240"]
   },
   {
     "_id": {
@@ -295,7 +295,7 @@
     "email": "yu@xiaDynasty.com",
     "dob": "unknown",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "238"]
   },
   {
     "_id": {
@@ -308,7 +308,7 @@
     "email": "aladdin@arabianNights.com",
     "dob": "unknown",
     "role": "USER",
-    "likedMovies": [ "tt0107688", "tt0170016"]
+    "likedMovies": [ "240"]
   },
   {
     "_id": {
@@ -320,7 +320,8 @@
     "lastName": "N/A",
     "email": "scheherazade@persia.com",
     "dob": "unknown",
-    "role": "USER"
+    "role": "USER",
+    "likedMovies": []
   },
   {
     "_id": {
@@ -332,7 +333,8 @@
     "lastName": "the Sailor",
     "email": "sinbad@sailorAdventures.com",
     "dob": "unknown",
-    "role": "USER"
+    "role": "USER",
+    "likedMovies": []
   },
   {
     "_id": {
@@ -344,7 +346,8 @@
     "lastName": "Baba",
     "email": "aliBaba@thieves.com",
     "dob": "unknown",
-    "role": "USER"
+    "role": "USER",
+    "likedMovies": []
   },
   {
     "_id": {
@@ -356,7 +359,8 @@
     "lastName": "N/A",
     "email": "khidr@eternalWisdom.com",
     "dob": "unknown",
-    "role": "USER"
+    "role": "USER",
+    "likedMovies": []
   },
   {
     "_id": {
@@ -368,7 +372,8 @@
     "lastName": "Archangel",
     "email": "michael@heavensrealm.com",
     "dob": "unknown",
-    "role": "USER"
+    "role": "USER",
+    "likedMovies": []
   },
   {
     "_id": {
@@ -380,7 +385,8 @@
     "lastName": "Archangel",
     "email": "gabriel@heavensmail.com",
     "dob": "unknown",
-    "role": "USER"
+    "role": "USER",
+    "likedMovies": []
   },
   {
     "_id": {
@@ -392,7 +398,8 @@
     "lastName": "N/A",
     "email": "moses@exodus.com",
     "dob": "unknown",
-    "role": "USER"
+    "role": "USER",
+    "likedMovies": []
   },
   {
     "_id": {
@@ -404,7 +411,8 @@
     "lastName": "N/A",
     "email": "david@israelkingdom.com",
     "dob": "unknown",
-    "role": "USER"
+    "role": "USER",
+    "likedMovies": []
   },
   {
     "_id": {
@@ -416,5 +424,6 @@
     "lastName": "Saint",
     "email": "peter@pearlygates.com",
     "dob": "unknown",
-    "role": "USER"
+    "role": "USER",
+    "likedMovies": []
   }]
