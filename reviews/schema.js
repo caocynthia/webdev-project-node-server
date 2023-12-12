@@ -1,11 +1,10 @@
 import mongoose from "mongoose";
-
-const schema = new mongoose.Schema(
+const reviewSchema = new mongoose.Schema(
   {
-    user: { type: mongoose.Schema.Types.ObjectId, ref: "users" },
-    movieId: String,
+    movieId: { type: String, required: true },
+    userId: { type: String, required: true },
+    review: String,
   },
   { collection: "reviews" }
 );
-
-export default schema;
+export default reviewSchema;
