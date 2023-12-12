@@ -27,7 +27,6 @@ function ReviewsRoutes(app) {
   };
 
   const findReviewByUser = async (req, res) => {
-    console.log(req.params.userId);
     const review = await dao.findReviewByUser(req.params.userId);
     res.json(review);
   };
