@@ -2,8 +2,7 @@ import * as dao from "./dao.js";
 
 function ReviewsRoutes(app) {
   const createReview = async (req, res) => {
-    console.log(req.params)
-    const review = await dao.createReview(req.params.userId, req.params.movieId, req.params.review);
+    const review = await dao.createReview(req.body);
     res.json(review);
   };
 
@@ -37,7 +36,7 @@ function ReviewsRoutes(app) {
     res.json(review);
   };
 
-  app.post("/api/users/:userId/reviews/:movieId", createReview);
+  app.post("/api/reviews", createReview);
   app.get("/api/reviews", findAllReviews);
   app.get("/api/reviews/:reviewId", findReviewById);
   app.get("/api/reviews/user/:userId", findReviewByUser);
